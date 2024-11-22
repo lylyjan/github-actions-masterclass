@@ -10,6 +10,8 @@ jobs:
     runs-on: mac-latest
     steps:
     - uses: actions/checkout@v4.2.2
-    - run: ls
+    - run: 
+          npm install
+          npx run test
 
             
